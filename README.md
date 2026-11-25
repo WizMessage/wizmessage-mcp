@@ -7,7 +7,7 @@ This repository holds documentation only. WizMessage is a hosted commercial serv
 | | |
 |---|---|
 | Address | `https://wizmessage.com/mcp` (Streamable HTTP) |
-| MCP Registry | `com.wizmessage/whatsapp` |
+| MCP Registry | `com.wizmessage/mcp` |
 | Sign in | ChatGPT, Codex, Claude Code |
 | API key | every other MCP client |
 | Needs | an active Wiz Bot or Wiz Pro plan, and a WhatsApp Business number connected to WizMessage |
