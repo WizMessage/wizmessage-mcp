@@ -1,6 +1,6 @@
-# WizMessage MCP server for WhatsApp Business
+# WizMessage MCP server
 
-[WizMessage](https://wizmessage.com/pages/mcp) runs a hosted MCP server that lets AI agents work with a WhatsApp Business inbox: read chats, reply, send approved templates.
+[WizMessage](https://wizmessage.com/pages/mcp) is a team inbox for WhatsApp Business. Its hosted MCP server lets AI agents read chats, reply and send approved templates.
 
 This repository holds documentation only. WizMessage is a hosted commercial service: its server code is not here, and we publish no npm or PyPI package. Setup for every tool and help with problems are on **[wizmessage.com/pages/mcp](https://wizmessage.com/pages/mcp)**.
 
@@ -11,7 +11,7 @@ This repository holds documentation only. WizMessage is a hosted commercial serv
 | Sign in | ChatGPT, Codex, Claude Code |
 | API key | every other MCP client |
 | Needs | an active Wiz Bot or Wiz Pro plan, and a WhatsApp Business number connected to WizMessage |
-| Built on | the official WhatsApp Business Platform (Cloud API) |
+| Built on | Meta's WhatsApp Business Platform (Cloud API) |
 
 ## Connect
 
@@ -83,7 +83,7 @@ A connection sees only the tools its permissions allow.
 
 ## Questions
 
-**Does it log in to WhatsApp Web?** No. The number is connected through Meta's own onboarding to a WhatsApp Business account you own. [Which kind of WhatsApp MCP server fits](https://wizmessage.com/compare/whatsapp-mcp-server-cloud-api-vs-linked-device) compares the kinds.
+**Does it log in to WhatsApp Web?** No. The number is connected through Meta's own onboarding to a WhatsApp Business account you own. [Kinds of MCP servers for WhatsApp, compared](https://wizmessage.com/compare/whatsapp-mcp-server-cloud-api-vs-linked-device).
 
 **Can an agent send a campaign?** No. Each message goes to one contact, up to the daily limit.
 
@@ -95,4 +95,10 @@ A connection sees only the tools its permissions allow.
 
 info@bethtechnologies.com, with the time of the request and the tool name. Never include a key.
 
-Made by [Beth Technologies](https://wizmessage.com/). WhatsApp is a trademark of Meta. WizMessage is not made or endorsed by WhatsApp.
+Made by [Beth Technologies](https://wizmessage.com/).
+
+## Trademarks
+
+WhatsApp and Meta are trademarks of Meta Platforms, Inc. or its affiliates. ChatGPT, Codex, Claude, Cursor, VS Code and the other product names belong to their owners. All of them are used here only to say what the server works with.
+
+WizMessage is a product of Beth Technologies. It is not made, sponsored or endorsed by Meta, WhatsApp or any other company named here. This repository contains no code, logos, images or documentation text of Meta or WhatsApp. Trademark or copyright question: info@bethtechnologies.com.
